@@ -88,7 +88,7 @@ const Navbar = () => {
               </svg>
             </button>
             <div
-              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg ${
+              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg z-20 ${
                 isAboutOpen ? "block" : "hidden"
               }`}
             >
@@ -135,7 +135,7 @@ const Navbar = () => {
               </svg>
             </button>
             <div
-              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg ${
+              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg z-20 ${
                 isAcademicsOpen ? "block" : "hidden"
               }`}
             >
@@ -180,7 +180,7 @@ const Navbar = () => {
               </svg>
             </button>
             <div
-              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg ${
+              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg z-20 ${
                 isStudentsOpen ? "block" : "hidden"
               }`}
             >
