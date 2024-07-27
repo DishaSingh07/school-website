@@ -71,42 +71,6 @@ const Home = () => {
           <Message />
         </div>
 
-        {/* Quick Links */}
-        <div className="max-w-4xl mx-auto px-4 py-10">
-          <div className="text-center">
-            <h3 className="text-2xl font-bold text-[#CF1259] mb-4 transition-colors duration-300 ease-in-out hover:text-blue-800">
-              QUICK LINKS
-            </h3>
-            <hr className="w-1/2 h-px bg-blue-600 mx-auto mb-6" />
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <a
-              href="/overview"
-              className="bg-blue-500 text-white p-4 rounded-lg shadow-md hover:bg-blue-600 text-center"
-            >
-              About Us
-            </a>
-            <a
-              href="/admissions"
-              className="bg-blue-500 text-white p-4 rounded-lg shadow-md hover:bg-blue-600 text-center"
-            >
-              Admissions
-            </a>
-            <a
-              href="/curriculum"
-              className="bg-blue-500 text-white p-4 rounded-lg shadow-md hover:bg-blue-600 text-center"
-            >
-              Academics
-            </a>
-            <a
-              href="/contact-us"
-              className="bg-blue-500 text-white p-4 rounded-lg shadow-md hover:bg-blue-600 text-center"
-            >
-              Contact Us
-            </a>
-          </div>
-        </div>
-
         <Announcements />
         <FeaturedPrograms />
 
